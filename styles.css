@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+/* Select the table element and set its width, border, and margin */
+table {
+  width: 100%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+/* Select the header cells and set their background color, text color, and padding */
+th {
+  background-color: indianred;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+/* Select the data cells and set their border and padding */
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Select the odd-numbered rows and set their background color */
+tr:nth-child(odd) {
+  background-color: pink;
+}
